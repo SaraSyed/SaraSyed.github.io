@@ -1,0 +1,74 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.paragraphs {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #dddddd;
+}
